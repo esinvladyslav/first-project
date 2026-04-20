@@ -3,24 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Оно тебе надо</title>
     </head>
     <body>
         <header class="header">
-            <div class="header_nav">
-                <ul class="links">
-                    <li class="main_link">Главная</li>
-                    <li class="other_link">Посмотреть лоты</li>
-                    <li class="other_link">Об аукционе</li>
+            <nav class="header_nav">
+                <ul class="menu_links">
+                    <li class="no_marker">
+                         <a class="links main_link" href="0">главная</a> 
+                    </li>
+                    <li> <a class="links" href="0">посмотреть лоты</a> </li>
+                    <li> <a class="links"href="0">об аукционе</a> </li>
                 </ul>
-            </div>
+            </nav>
             <a class="header_logo">
-                <img src="images/logo.svg" alt="Оно тебе надо">
+                <img src="../images/logo.svg" alt="Оно тебе надо">
             </a>
             <address>
-                <ul class="header_contacts">
+                <ul class="contacts">
                     <li><a href="tel:99997777777"> +9 999 777 77 77</a></li>
                     <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
                     <li>
@@ -47,46 +49,61 @@
                 <h2 class="title_lots">Лоты</h2>
                 <div class="cont_card">
                     <div class="card_film">
-                        <article class="card card_film">
-                            <div class="overlay"></div>
-                            <h3 class="card_title">Фильм режиссёра, который бросил киношколу
-                            </h3>
-                            <p class="text_card">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-                            </p>
-                        </article>
+                        <a class="card_link" href="0">
+                            <article class="card card_film">
+                                <div class="overlay"></div>
+                                <h3 class="card_title">Фильм режиссёра, который бросил киношколу
+                                </h3>
+                                <p class="text_card">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                                </p>
+                            </article>
+                        </a>    
                     </div>
                     <div class="card_book">
-                        <article class="card card_book">
-                            <div class="overlay"></div>
-                            <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента
-                            </h3>
-                            <p class="text_card">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?  
-                            </p>
-                        </article> 
+                        <a class="card_link" href="0">
+                            <article class="card card_book">
+                                <div class="overlay"></div>
+                                <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента
+                                </h3>
+                                <p class="text_card">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?  
+                                </p>
+                            </article>
+                        </a>    
                     </div>
                     <div class="card_pict">
-                        <article class="card card_pict">
-                            <div class="overlay"></div>       
-                            <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги
-                            </h3>
-                            <p class="text_card">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-                            </p>
-                        </article>
+                        <a class="card_link" href="0">
+                            <article class="card card_pict">
+                                <div class="overlay"></div>       
+                                <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги
+                                </h3>
+                                <p class="text_card">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                                </p>
+                            </article>
+                        </a>
                     </div>
                 </div>
-                <p class="more_info">посмотреть больше</p>
+                <p class="more_info" href="0">посмотреть больше</p>
             </section>
             <section class="about">
                 <div class="about_logo">
-                    <img src="./images/Vector.svg" alt="Логотип">
+                    <img src="../images/Vector.svg" alt="Логотип">
                 </div>
                 <div class="about_cont">
                     <h2 class="about_title">Об аукционе</h2>
                     <div class="about_text"> 
-                        <p class="text_about-upper">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+                        <p class="text_about-upper">Здесь вы не встретите очередное пафосное собрание невероятно<br />
+                            дорогого антиквариата. Наши лоты вообще не должны были попасть ни<br />
+                            на один аукцион. Потому что кому нужен дневник девочки-подростка<br />
+                            или картина, которую может нарисовать даже ребёнок? Кому нужны<br />
+                            все эти странные вещи, созданные любителями?
                         </p>
-                        <p class="text_about-under">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-                        на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+                        <p class="text_about-under">Слишком сложные или, наоборот, слишком простые. Опережающие<br />
+                        своё время. В пух и прах растерзанные критиками. Непринятые и<br />
+                        непонятые. Когда-то они казались просто неудачными. Но, несмотря<br />
+                        на критику, кажущуюся простоту или сложность, сейчас без этих<br />
+                        лотов невозможно представить современную культуру. Когда в эти<br />
+                        вещи не верил никто, продолжали верить их создатели. И сейчас<br />
+                        эти лоты стали культовыми. 
                         </p>
                     </div>
                 </div>
@@ -94,7 +111,7 @@
         </main>
         <footer class="footer">
             <address>
-                <ul class="footer_contacts">
+                <ul class=" contacts footer_contacts">
                     <li><a href="tel:99997777777"> +9 999 777 77 77</a></li>
                     <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
                     <li>
@@ -105,25 +122,25 @@
             <nav class="footer_menu">
                 <ul class="footer_links">
                     <li>
-                        <a href="0" class="footer_main-link">Главная</a>
+                        <a href="0" class="footer_main-link">главная</a>
                     </li>
                     <li>
-                        <a href="0" class="footer_other-link">Посмотреть лоты</a>
+                        <a href="0" class="footer_other-link">посмотреть лоты</a>
                      </li>
                     <li>
-                        <a href="0" class="footer_other-link">Об аукционе</a>
+                        <a href="0" class="footer_other-link">об аукционе</a>
                     </li>
                 </ul>
             </nav>
             <div class="footer_images">
                 <a href="0">
-                    <img src="/images/youtube.svg" alt="Лого Yt" class="image_foot"/>
+                    <img src="../images/youtube.svg" alt="Лого Yt" class="image_foot"/>
                 </a>
                 <a href="0">
-                    <img src="/images/vk.svg" alt="Лого вк" class="image_foot"/>
+                    <img src="../images/vk.svg" alt="Лого вк" class="image_foot"/>
                 </a>
                 <a href="0">
-                    <img src="/images/pinterest.svg" alt="Лого pint" class="image_foot"/>
+                    <img src="../images/pinterest.svg" alt="Лого pint" class="image_foot"/>
                 </a>
             </div>
     </body>
